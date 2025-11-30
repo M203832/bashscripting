@@ -1,0 +1,15 @@
+wsl --install
+
+open wsl
+
+git clone https://github.com/0xacx/chatGPT-shell-cli.git
+
+https://github.com/M203832/bashscripting.git
+
+sudo apt install dos2unix jq  -y
+
+dos2unix chatgpt.sh
+
+export OPENAI_KEY=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
+
+./chatgpt.sh 
