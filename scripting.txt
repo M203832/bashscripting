@@ -10,9 +10,5 @@ sudo apt install dos2unix jq  -y
 
 dos2unix chatgpt.sh
 
-run the export OPENAI_KEY command =
-
-
 ./chatgpt.sh 
 
-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
