@@ -28,7 +28,7 @@ PROCESSING_LABEL="\n\033[90mProcessing... \033[0m\033[0K\r"
 OVERWRITE_PROCESSING_LINE="             \033[0K\r"
 
 # Set default API key
-OPENAI_KEY=${OPENAI_KEY:-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}
+OPENAI_KEY=${OPENAI_KEY:-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}
 
 if [[ -z "$OPENAI_KEY" ]]; then
 	echo "You need to set your OPENAI_KEY to use this script"
