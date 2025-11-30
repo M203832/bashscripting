@@ -27,8 +27,8 @@ CHATGPT_CYAN_LABEL="\033[36mresponse \033[0m"
 PROCESSING_LABEL="\n\033[90mProcessing... \033[0m\033[0K\r"
 OVERWRITE_PROCESSING_LINE="             \033[0K\r"
 
-# Set default API key
-OPENAI_KEY=${OPENAI_KEY:-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}
+# Expect OPENAI_KEY to be provided via environment (export OPENAI_KEY=YOUR_KEY before running).
+# No hard-coded default is set here for security; script will exit if OPENAI_KEY is unset.
 
 if [[ -z "$OPENAI_KEY" ]]; then
 	echo "You need to set your OPENAI_KEY to use this script"
